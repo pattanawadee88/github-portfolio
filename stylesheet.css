@@ -1,0 +1,96 @@
+
+
+@font-face {
+    src: url(font/LemonJellyPersonalUse-dEqR.ttf);
+    font-family: lemonjelly;
+}
+
+body{
+    margin: 0;
+    color: #EF476F;
+    font-family: Georgia, Helvetica, sans-serif;  
+    
+}
+
+/* id */
+
+#my-logo {
+    font-family: lemonjelly;
+    font-size: 40px;
+    color: #EF476F;
+}
+
+#my-photo {
+    padding-top: 50px;
+    width: 40vh;
+    height: 60vh;
+}
+
+
+section {
+    background-image: url(imag/hello3D-v3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  
+}
+
+/* class */
+.nav-link{
+    color: #EF476F;
+}
+
+.nav-item{
+    margin: 10px;
+}
+.silde-bar{
+    margin-top: 100vh;
+}
+
+.about-me {
+    background-color: #EF476F;
+    color: black;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.work-section{
+    background-color: #FFD166;
+    color: black;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.side-nav {
+    width: 50px;
+    height: 100%;
+    background-color: rgba(107, 102, 102, 0.171);
+    position: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    right: 0;
+    top: 0;
+    background-attachment: scroll;
+}
+
+.side-nav ul {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.description{
+    text-align: center;
+}
+
+
+a:hover img{
+    transform: scale(1.5, 1.5);
+}
