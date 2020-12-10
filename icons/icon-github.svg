@@ -3,11 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#06D6A0;}
+	.st0{fill:#226F54;}
 	.st1{fill:#26547C;}
 	.st2{fill:#EF476F;}
 	.st3{fill:#FFD166;}
-	.st4{fill:#FFFCF9;}
+	.st4{fill:#06D6A0;}
+	.st5{fill:#FFFCF9;}
 </style>
 <path class="st0" d="M124,8C60.05,8,8,60.05,8,124c0,50.59,32.58,93.7,77.83,109.52c0.64,0.45,1.41,0.73,2.22,0.75
 	c11.31,3.7,23.41,5.73,35.95,5.73c63.95,0,116-52.05,116-116S187.95,8,124,8z M124,16c59.55,0,108,48.45,108,108
@@ -45,6 +46,6 @@
 <rect x="358.32" y="-24.69" class="st1" width="21.07" height="81.39"/>
 <rect x="379.39" y="-24.69" class="st2" width="21.07" height="81.39"/>
 <rect x="400.46" y="-24.69" class="st3" width="21.07" height="81.39"/>
-<rect x="421.54" y="-24.69" class="st0" width="21.07" height="81.39"/>
-<rect x="442.61" y="-24.69" class="st4" width="21.07" height="81.39"/>
+<rect x="421.54" y="-24.69" class="st4" width="21.07" height="81.39"/>
+<rect x="442.61" y="-24.69" class="st5" width="21.07" height="81.39"/>
 </svg>
