@@ -17,15 +17,16 @@ body{
 
 #my-photo {
     position: absolute;
-    
-    height: 90vh;
-    margin-top: -20%;
+    width: 80%;
+    /* height: 300px; */
+    margin-top: 10%;
     margin-left: 3rem;
 }
 
 #about-text{
     position: absolute;
     left: 50%;
+    top: -10%;
     border-bottom: 3px solid #F7B801;
 }
 
@@ -39,10 +40,7 @@ section {
 }
 
 /* class */
-.jumbotron{
-    background-color: #dde5b6;
-    color: #7678ed;
-}
+
 .greeting-message{
     padding-top: 8rem;
     text-align: center;
@@ -54,7 +52,6 @@ section {
 }
 
 .nav-item{
-   
     margin: 10px;
 }
 .silde-bar{
@@ -67,14 +64,19 @@ section {
 
 #description{
     position: absolute;
-    margin-top: 20%;
-    margin-left: 45%;
+    width: 100%;
+    margin-top: 40%;
+    margin-left: 55%;
+    float: right;
+    background-color: #F7B801;
+
 }
+
 .navbar-light{
     background-color: #6C584C;
 }
 
-.about-me {
+#about-me-section {
     position: relative;
     background-color: white;
     height: 100vh;
@@ -83,9 +85,13 @@ section {
     width: 100%;
     margin-top: 10%;
 }
-
-.work-section{
-    height: 100vh;
+#plant-background {
+    margin-left: 53% ;
+    margin-top: -40%;
+    
+}
+#work-section{
+    height: 10%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -94,13 +100,14 @@ section {
 }
 
 .side-nav {
-    width: 30px;
+    width:2%;
     height: 20%;
     position: fixed;
     background-size: cover;
     background-repeat: repeat;
     left: 0;
     bottom: 0;
+    z-index:  1000;
     background-attachment: scroll;
     border-right: 4px solid #ADC178;
 }
@@ -117,10 +124,6 @@ section {
     border-bottom: 2px solid #F7B801;
 }
 
-.card{
-    margin-left: 60%;
-}
-
 .nav-item a img:hover {
     transform: scale(1.2,1.2);
 }
@@ -134,4 +137,17 @@ a:hover {
 .card a img:hover{
     filter: grayscale(0%);
     transform: scale(1.1,1.1);
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #6c584c59;
+    margin-top: 20%;
+    bottom: 0;
+    
+}
+
+footer p {
+    padding-top: 40px;
 }

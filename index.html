@@ -16,81 +16,88 @@
 </head>
 <body>
   
-  <section>
+<section id="home-section container">
      <nav class="navbar navbar-expand-sm navbar-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <a class="nav-link mr-4" href="#">home <span class="sr-only">(current)</span></a>
-              <a class="nav-link mr-4" href="#">about</a>
-              <a class="nav-link mr-4" href="#">works</a>
+              <a class="nav-link mr-4" href="#home-section">home <span class="sr-only">(current)</span></a>
+              <a class="nav-link mr-4" href="#about-me-section">about</a>
+              <a class="nav-link mr-4" href="#work-section">works</a>
           </div>
-          
-          
           
         </nav>
         <div class="container greeting-message">
             <svg xmlns="http://www.w3.org/2000/svg" width="667" height="120" viewBox="0 0 667 120">
               <text id="PATTANAWADEE" transform="translate(0 94)" fill="#7678ed" font-size="95" font-family="Phosphate-Solid, Phosphate"><tspan x="0" y="0">P</tspan><tspan y="0" fill="#f7b801">A</tspan><tspan y="0">TT</tspan><tspan y="0" fill="#f7b801">A</tspan><tspan y="0">N</tspan><tspan y="0" fill="#f7b801">A</tspan><tspan y="0">W</tspan><tspan y="0" fill="#f7b801">A</tspan><tspan y="0">DEE</tspan></text>
             </svg>                     
-            <p class="lead">Pat &hearts; building websites.</p>
             <hr class="my-4">
             <p>software engineering &amp; web developer</p>
-            <p>based in boston</p>
             <a class="btn btn-secondary btn-lg" href="#" role="button">contact me</a>
           </div>
-      
-    </section>
+          <img id="plant-background" src="imag/plant.png" alt="plant">
+</section>
     
     
 
-    <div class="side-nav translate">
-      <ul class="navbar-nav ">
-        <li class="nav-item ml-3">
-          <a href="#"><img width="40px" src="icons/icon-angellist.svg" alt="Angellist"></a>
-        </li>
-        <li class="nav-item ">
-          <a href="https://www.linkedin.com/in/pattanawadeewinyarat/"><img width="40px" src="icons/icon-linkedin.svg" alt="Linkedin"></a>
-        </li>
-        <li class="nav-item ">
-          <a href="https://github.com/pattanawadee88"><img width="40px" src="icons/icon-github.svg" alt="Github"></a>
-        </li>
-      </ul>
-    </div>
+<div class="side-nav">
+  <ul class="navbar-nav ">
+    <li class="nav-item ml-3">
+      <a href="#"><img width="40px" src="icons/icon-angellist.svg" alt="Angellist"></a>
+    </li>
+    <li class="nav-item ">
+      <a href="https://www.linkedin.com/in/pattanawadeewinyarat/"><img width="40px"   src="icons/icon-linkedin.svg" alt="Linkedin"></a>
+    </li>
+    <li class="nav-item ">
+      <a href="https://github.com/pattanawadee88"><img  width="40px"  src="icons/icon-github.svg" alt="Github"></a>
+    </li>
+  </ul>
+</div>
 
     
-  <div  data-aos="fade-left" class="about-me container pt-5">
-    <img data-aos="fade-up" id="my-photo" class="card-img-overlayimg-fluid" src="imag/Me.png" alt="My photo">
+  <div  data-aos="fade-left" id="about-me-section" class="container pt-5">
+    <img data-aos="fade-up" id="my-photo" style="max-width:100%;height:auto;" class="card-img-overlayimg-fluid" src="imag/myphoto.JPG" alt="My photo">
     <svg id="about-text" xmlns="http://www.w3.org/2000/svg" width="288" height="118" viewBox="0 0 288 118">
-      <text id="about." transform="translate(1 96)" fill="none" stroke="#226f54" stroke-width="3" font-size="100" font-family="HelveticaNeue, Helvetica Neue"><tspan x="" y="0">about.</tspan></text>
+      <text id="about." class="text-md-start"  transform="translate(1 96)" fill="none" stroke="#226f54" stroke-width="3" font-size="100" font-family="HelveticaNeue, Helvetica Neue"><tspan x="" y="0">about.</tspan></text>
     </svg> 
-    <div id="description" class="jumbotron text-dark bg-info mb-3" style="max-width: 30rem;">
+    <div id="description" class="jumbotron container mb-3" style="max-width: 45%; max-height: 90%; margin-right: 0%;">
       <h5>Hi!</h5>
       <p>I'm Pat.</p>
-      <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
- 
+      <span>&diams; A software engineering and web developer</span><br>
+      <span>&diams; Graduated from colleage with a bachelor degree in computer engineering.</span><br>
+      <span>&diams; Enjoy building websites</span>
+      <hr>
+      <h5>Skills:</h5>
+      <p>HTML5/CSS/Javascript</p>
+
     </div> 
   </div>
 
- <div data-aos="zoom-in" class="container work-section">
-  <svg xmlns="http://www.w3.org/2000/svg" width="780" height="240" viewBox="0 0 788 240">
-    <text id="WORKS" transform="translate(6 190)" fill="none" stroke="#226f54" stroke-width="6" font-size="160" font-family="Kefa-Bold, Kefa" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">WORKS</tspan></text>
+<div data-aos="zoom-in" class="container" id="work-section">
+  <svg xmlns="http://www.w3.org/2000/svg" width="60%" height="80%" viewBox="0 0 788 240">
+    <text class="text-md-start" id="WORKS" transform="translate(6 190)" fill="none" stroke="#226f54" stroke-width="6" font-size="10rem" font-family="Kefa-Bold, Kefa" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">WORKS</tspan></text>
   </svg>
-  <div class="">
-    <div class="card-columns ">
-        <div class="card">
-            <a href="#"><img src="imag/mountain-landscape-2031539_640.jpg" class="card-img-top" alt=""></a>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col text-center">
+        <div class="card" style="max-width: 40rem;">
+          <img src="imag/japan.png" class="card-img-top "  alt="Gallery Website Photo">
+          <div class="card-body">
+            <h5 class="card-title">The Gallery
+            </h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
         </div>
-        <div class="card">
-            <a href="#"><img src="imag/tree-736885_640.jpg" class="card-img-top" alt=""></a>
-        </div>
-        <div class="card">
-            <a href="#"><img class="pt-5" src="imag/mountain-landscape-2031539_640.jpg" alt=""> </a>
-        </div>  
-    </div>
+      </div>
+      </div>
+  </div>
 </div>
-</div>
+
+<footer class="text-center">
+  <p>Designed & Built by Pattanawadee Winyarat</p>
+</footer>
+
  
 
  
@@ -110,7 +117,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      offset: 400,
+      offset: 100,
       duration: 1000,
       once: false,
       mirror: false,
