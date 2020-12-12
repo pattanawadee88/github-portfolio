@@ -18,50 +18,15 @@ body{
 #my-photo {
     position: absolute;
     width: 80%;
-    /* height: 300px; */
     margin-top: 10%;
     margin-left: 3rem;
 }
-
 #about-text{
     position: absolute;
     left: 50%;
     top: -10%;
     border-bottom: 3px solid #F7B801;
 }
-
-section {
-    background-color: #F0EAD2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-  
-}
-
-/* class */
-
-.greeting-message{
-    padding-top: 8rem;
-    text-align: center;
-
-}
-.nav-link{
-    color: #F7B801;
-   
-}
-
-.nav-item{
-    margin: 10px;
-}
-.silde-bar{
-    margin-top: 100vh;
-}
-.btn{
-    background-color: #F7B801;
-    border: none;
-}
-
 #description{
     position: absolute;
     width: 100%;
@@ -71,11 +36,6 @@ section {
     background-color: #F7B801;
 
 }
-
-.navbar-light{
-    background-color: #6C584C;
-}
-
 #about-me-section {
     position: relative;
     background-color: white;
@@ -83,7 +43,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 30%;
 }
 #plant-background {
     margin-left: 53% ;
@@ -99,6 +59,29 @@ section {
 
 }
 
+/* class */
+
+.greeting-message{
+    padding-top: 8rem;
+    text-align: center;
+}
+.nav-link{
+    color: #F7B801; 
+}
+.nav-item{
+    margin: 10px;
+}
+.silde-bar{
+    margin-top: 100vh;
+}
+.btn{
+    background-color: #F7B801;
+    border: none;
+}
+.navbar-light{
+    background-color: #6C584C;
+    width: 100%;
+}
 .side-nav {
     width:2%;
     height: 20%;
@@ -127,16 +110,16 @@ section {
 .nav-item a img:hover {
     transform: scale(1.2,1.2);
 }
-
-a:hover {
-    transform: scale(1.2,1.2);
-}
 .card a img{
     filter: grayscale(100%);
 }
 .card a img:hover{
     filter: grayscale(0%);
     transform: scale(1.1,1.1);
+}
+
+a:hover {
+    transform: scale(1.2,1.2);
 }
 
 footer{
