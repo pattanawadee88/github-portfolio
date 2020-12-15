@@ -1,10 +1,8 @@
-
-
-@font-face {
-    src: url(font/LemonJellyPersonalUse-dEqR.ttf);
-    font-family: lemonjelly;
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
 }
-* { margin:0; padding:0; box-sizing:border-box; }
 
 body{
     
@@ -15,7 +13,13 @@ body{
 }
 
 /* id */
-
+#web-drawing{
+    margin-left: 35%; 
+    width: 60%; 
+    position: absolute;
+    margin-top: -10%;
+    
+}
 #my-photo {
     position: relative;
     width: 80%;
@@ -24,9 +28,8 @@ body{
 }
 #about-text{
     position: absolute;
-   
     top: -10%;
-    border-bottom: 3px solid #F7B801;
+    border-bottom: 3px solid #ff206e;
 }
 
 #about-me-section {
@@ -34,7 +37,7 @@ body{
     background-color: white;
     height: 100vh;
     width: 100%;
-    margin-top: 30%;
+    margin-top: 40%;
 }
 #work-section{
     height: 10%;
@@ -47,18 +50,19 @@ body{
 
 /* class */
 .description{
-    width: 80%;
+    width: 60%;
     position: absolute;
     margin-top: -3em;
     margin-left: 6em;
     justify-content: center;
     background-color: #F7B801;
+    border-radius: 10px;
 
 }
 .greeting-message{
     padding-top: 8em;
-    text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    position: relative;
 }
 img:hover{
     transform: scale(1.2,1.2);
@@ -68,7 +72,45 @@ img:hover{
 }
 
 .btn:hover{
-    background-color: rgba(107, 107, 107, 0.671);
+    background-color: white;
+}
+
+.submit-button{
+    background-color: #ff206e;
+    border-radius: 20px;
+    color: white;
+    padding: 4px 10px;
+    margin-top: 2%;
+    box-shadow:6px 6px 25px -4px black;
+}
+
+.contact-me-form{
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+.pop-up-contact-form{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 140%;
+    position: absolute;
+    top:0;
+    display: none;
+    justify-content: center;
+   
+}
+
+.close{
+    position: absolute;
+    width: 30px;
+    top: 10px;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
 }
 /* elements */
 
@@ -81,4 +123,5 @@ footer{
 
 p{
     color: #ff206e;
+    font-size: 1.2em;
 }
